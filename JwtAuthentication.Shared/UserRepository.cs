@@ -16,14 +16,29 @@ namespace JwtAuthentication.Shared
                 {
                     Username = "john.doe",
                     Password = "john.password",
-                    Roles = new []{"User"}
+                    Roles = new[]
+                    {
+                        "User"
+                    }
                 },
                 new User
                 {
                     Username = "jane.doe",
                     Password = "jane.password",
-                    Roles = new []{"User", "Admin"}
-                }
+                    Roles = new[]
+                    {
+                        "User", "Admin"
+                    }
+                },
+                new User
+                {
+                    Username = "admin",
+                    Password = "admin",
+                    Roles = new[]
+                    {
+                        "User"
+                    }
+                },
             };
         }
 
